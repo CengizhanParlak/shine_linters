@@ -93,6 +93,7 @@ linter:
     prefer_iterable_whereType: true
     prefer_spread_collections: true
     prefer_typing_uninitialized_variables: true
+    prefer_single_quotes: true
     provide_deprecation_message: true
     recursive_getters: true
     require_trailing_commas: true
