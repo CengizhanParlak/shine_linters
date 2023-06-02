@@ -1,0 +1,7 @@
+name: shine_linters
+version: 1.0.0+1
+description: Linter rules that will make your code shine.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=3.0.3 <4.0.0"
