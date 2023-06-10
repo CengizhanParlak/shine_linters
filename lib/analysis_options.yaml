@@ -17,12 +17,10 @@ analyzer:
 linter:
   rules:
     public_member_api_docs: false
-    avoid_print: false
-    always_put_required_named_parameters_first: false
+    avoid_print: true
+    always_put_required_named_parameters_first: true
     always_use_package_imports: true
-    sort_pub_dependencies: false
-
-    # from Han
+    sort_pub_dependencies: true
     avoid_empty_else: true
     lines_longer_than_80_chars: false
     avoid_types_as_parameter_names: true
@@ -46,7 +44,6 @@ linter:
     avoid_classes_with_only_static_members: true
     avoid_escaping_inner_quotes: true
     avoid_function_literals_in_foreach_calls: true
-    # kesin gerekli. Bool positional çok saçma duruyor
     avoid_positional_boolean_parameters: true
     avoid_renaming_method_parameters: true
     avoid_return_types_on_setters: true
